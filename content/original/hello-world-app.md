@@ -5,7 +5,7 @@
 
 ## Example Structure of an Angular App
 
-![Angular App Structure](content/images/angular2-generic-application-structure.png)
+![Angular App Structure](./images/angular2-generic-application-structure.png)
 
 Notes:
 
@@ -408,7 +408,7 @@ src
 
 ## Component Tree (Diagram)
 
-![Component Tree](content/images/component-tree.jpg)
+![Component Tree](./images/component-tree.jpg)
 
 ---
 

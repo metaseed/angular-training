@@ -999,7 +999,7 @@ export class AppModule {};
 
 How injector gets handled then?
 
-- In Angular 1.x, there is only one injector per application, but in Angular 2, there is a [tree of injectors](content/images/di.png).
+- In Angular 1.x, there is only one injector per application, but in Angular 2, there is a [tree of injectors](./images/di.png).
 - The injector tree does not make a new injector for every component, but does make a new injector for every component with a `providers` array in its decorator.
 - Components that have no `providers` array look to their parent component for an injector. If the parent does not have an injector, it looks up until it reaches the root injector.
 
@@ -1058,7 +1058,7 @@ but it turns out that in this case, _different_ `Unique` instances would be assi
 
 Why? Let's check the injector tree in this case:
 
-![DI Tree](content/images/injector-tree-diagram.png)
+![DI Tree](./images/injector-tree-diagram.png)
 
 - `App` gets `Unique` from root injector.
 - `ChildInheritor` gets `Unique` from ChildInheritor injector.

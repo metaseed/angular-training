@@ -38,7 +38,7 @@
 </ul>
 ```
 
-![Converting to Upper Case](content/images/screenshot-uppercase.png)
+![Converting to Upper Case](./images/screenshot-uppercase.png)
 
 ---
 <!-- .slide: id="pipes-passing-arguments" -->
@@ -136,4 +136,4 @@ export class TitlecasePipe implements PipeTransform {
 </ul>
 ```
 
-![Converting to Title Case](content/images/screenshot-titlecase.png)
+![Converting to Title Case](./images/screenshot-titlecase.png)

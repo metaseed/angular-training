@@ -30,7 +30,7 @@ Objectives:
 2. push notifications to an observer
 3. let Angular know when change detetection is required
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -71,7 +71,7 @@ Subscribing to an observable:
 3. provides a callback to the observable
 4. is not required in Angular
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -111,7 +111,7 @@ The map operator:
 3. enables geolocation in Angular
 4. will modify the result returned by an observable
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -182,7 +182,7 @@ Angular's `AsyncPipe`:
 3. makes asynchronous code look synchronous
 4. can't be chained with pure pipes
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -216,7 +216,7 @@ Operators:
 2. return subscriptions so you can unsubscribe
 3. are methods on an observable that return an observable
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer

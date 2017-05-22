@@ -150,7 +150,7 @@ export class AppModule { }
 
 | Classic View | Fancy View |
 |--------------|------------|
-| ![Classic View](content/images/screenshot-classic-view.png) | ![Fancy View](content/images/screenshot-fancy-view.png) |
+| ![Classic View](./images/screenshot-classic-view.png) | ![Fancy View](./images/screenshot-fancy-view.png) |
 
 - But going to `http://localhost:4200/todo` clears all the to-do items!
 - ...pause for thought...

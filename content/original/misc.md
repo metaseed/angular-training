@@ -22,7 +22,7 @@ These are the most-used lifecycle hooks:
 
 ## Change Detection (Angular 1 vs 2)
 
-![File Structure](content/images/angular1-vs-angular2.jpg)
+![File Structure](./images/angular1-vs-angular2.jpg)
 
 - Angular 1: Two-way data binding. Nodes traversed one or more times.
 - Angular 2+: One-way data binding. Nodes traversed once.

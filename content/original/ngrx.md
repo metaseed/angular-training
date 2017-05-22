@@ -167,4 +167,4 @@ function getCredentials(){
 
 ## Redux as a System 
 
-<img src="content/images/redux-and-data-flow.png" width="50%"/>
+<img src="./images/redux-and-data-flow.png" width="50%"/>

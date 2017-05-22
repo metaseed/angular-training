@@ -44,7 +44,7 @@ Usage:
    Other Header<br>
    Body text
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -97,7 +97,7 @@ Usage:
    Other Header<br>
 4. None. An error will be thrown because multiple bare `<ng-content>` tags are not supported
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -141,7 +141,7 @@ Usage:
 2. New Tab1 Tab2 Tab3
 3. New
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -222,7 +222,7 @@ Usage:
 1. The quick brown fox greatly leaps and bounds over the lazy dog
 1. None. An error will be thrown because `select` does not support multiple matching elements
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -258,7 +258,7 @@ export class ClockComponent {
 3. `@Output() timeChange = new EventEmitter();`
 4. `@Output() onChange = new EventEmitter();`
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -288,7 +288,7 @@ names and that suffixing an output member name with `Change`.
 3. `<clock (time)="currentTime" [timeChange]="currentTime=$event"></clock>`
 4. `<clock [time]="currentTime" (timeChange)="currentTime=$event"></clock>`
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -318,7 +318,7 @@ values?
 3. You can't, two-way bound properties must be used to keep data in sync.
 4. `<clock [time]="currentTime" (timeChange)="onTimeChange(time)"></clock>`
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -473,7 +473,7 @@ Choose all of the following that are needed to make two-way data binding work.
 3. `[]` attribute (as in `[hello]="hello!"`)
 4. `()`attribute (as in `(click)=sayHi()`)
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -627,7 +627,7 @@ which field of the `@NgModule` decorator should I put the class in?
 1.  `interfaces`
 1.  None of the above.
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer

@@ -213,7 +213,7 @@ export class ToDoListComponent implements OnInit {
   but before anything is used
 - See Angular's [Lifecycle Hooks](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html) documentation for details
 
-![Angular Object Lifecycle](content/images/hooks-in-sequence-resized.png)
+![Angular Object Lifecycle](./images/hooks-in-sequence-resized.png)
 
 ---
 <!-- .slide: id="services-refactor-the-app" -->
@@ -277,7 +277,7 @@ What is the correct way to inject a service into a class?
     }
 ```
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -333,7 +333,7 @@ class member (make it available on `this`)?
     }
 ```
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -367,7 +367,7 @@ Injecting a service into a class accomplishes which of the following?
 3. An existing instance of the service is made available to the class
    only if it has already been registered in the `providers` array.
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer
@@ -393,7 +393,7 @@ must be done manually before the service can be used?
 3. Import the `MyServiceModule` into the `AppModule` and add
    `MyService` into the `providers` array
 
-+++
+--
 <!-- .slide: data-background="./images/answer-slide.jpg" -->
 
 ## Answer

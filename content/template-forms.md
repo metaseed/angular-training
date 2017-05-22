@@ -115,7 +115,7 @@ export class AppModule { }
 <p>Form control value: {{newItemForm.value.newItem}}</p>
 ```
 
-![Showing Form Values](content/images/screenshot-showing-form-values.png)
+![Showing Form Values](./images/screenshot-showing-form-values.png)
 
 <!-- preview: https://plnkr.co/edit/oVQhf641Nx1qpaBG5jeN?p=preview -->
 
@@ -135,7 +135,7 @@ export class AppModule { }
 <p>Form control value: {{newItem.value}}</p>
 ```
 
-![Showing Form Values](content/images/screenshot-showing-form-values.png)
+![Showing Form Values](./images/screenshot-showing-form-values.png)
 
 <!-- preview: https://plnkr.co/edit/oVQhf641Nx1qpaBG5jeN?p=preview -->
 
@@ -288,6 +288,6 @@ export class GenericInputComponent implements OnInit {
 <!-- .slide: id="template-forms-styling-the-form-4" -->
 ## Styling the Form
 
-![Styling the Form](content/images/screenshot-form-css.png)
+![Styling the Form](./images/screenshot-form-css.png)
 
 <!-- https://plnkr.co/edit/BQdO11mdaRpsrk7OD40e?p=preview -->
