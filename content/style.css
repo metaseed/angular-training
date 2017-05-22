@@ -322,7 +322,7 @@ body p, body ul, body ol, body table {
     bottom: 50px; }
   .reveal .slides {
     background: url(./images/angular.svg) top right no-repeat;
-    background-size: 125px auto;
+    background-size: 80px auto;
     margin-top: 60px;
     text-align: left; }
     .reveal .slides > section,
