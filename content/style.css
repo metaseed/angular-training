@@ -1,0 +1,19 @@
+  .slide-number {
+    font-size: 1em;
+  }
+ .reveal h1 {
+    color: #0a0a20;
+    font-weight: bold;
+    left: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 250px !important;
+  }
+  .slides {
+    background: url('./images/angular.svg') top right no-repeat;
+    background-size: 80px auto;
+    margin-top: 60px;
+    text-align: left;
+  }
