@@ -287,18 +287,6 @@ body {
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
-#rangle-io {
-  background: url(12f837012989505f55f5db5806e7518b.svg) no-repeat;
-  background-size: contain;
-  height: 0.4em;
-  left: 0 !important;
-  position: absolute !important;
-  right: 0 !important;
-  text-indent: -99999em;
-  top: 180px !important; }
-  #rangle-io:before {
-    display: none; }
-
 body p, body ul, body ol, body table {
   color: #422D51; }
 
