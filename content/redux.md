@@ -5,6 +5,14 @@
 # Managing State with Redux
 
 ---
+<!-- .slide: id="redux-problem" -->
+## The Problem
+
+- Different parts of an application need to reflect different aspects of its state
+- Different parts of an application can *update* different aspects of its state
+- Those updates can happen asynchronously
+
+---
 <!-- .slide: id="redux-roadmap" -->
 ## Roadmap
 
@@ -13,14 +21,6 @@
 1. How do we dispatch actions?
 1. How do we respond to state changes?
 1. What tools are available for working with Redux?
-
----
-<!-- .slide: id="redux-problem" -->
-## The Problem
-
-- Different parts of an application need to reflect different aspects of its state
-- Different parts of an application can *update* different aspects of its state
-- Those updates can happen asynchronously
 
 ---
 <!-- .slide: id="redux-what-should-it-do" -->
@@ -60,7 +60,7 @@ Server requests are different from user interactions:
 <!-- .slide: id="redux-redux-as-a-system" -->
 ## Redux as a System
 
-<img src="/content/images/redux-and-data-flow.png" width="50%"/>
+<img src="./images/redux-and-data-flow.png" width="50%"/>
 
 ---
 <!-- .slide: id="redux-the-store" -->
@@ -155,7 +155,7 @@ Notes:
   - [Electron and others](http://extension.remotedev.io/#installation)
 - After installing the extension in Chrome, there should be a tab in Chrome DevTools labeled "Redux".
 
-![](content/images/chrome-redux-devtools.png)
+![](./images/chrome-redux-devtools.png)
 
 ---
 <!-- .slide: id="redux-create-the-reducer-1" -->
@@ -178,7 +178,7 @@ Notes:
 
 - Set up definitions
 
-#####_src/app/store.ts_
+##### _src/app/store.ts_
 ```ts
 import { Action } from '@ngrx/store';
 
@@ -199,7 +199,7 @@ const DEFAULT_STATE: AppState = {
 
 - Define the reducer function
 
-#####_src/app/store.ts_
+##### _src/app/store.ts_
 ```ts
 export function reducer(state: AppState = DEFAULT_STATE, action: Action) {
   let newState;
@@ -220,7 +220,7 @@ export function reducer(state: AppState = DEFAULT_STATE, action: Action) {
 <!-- .slide: id="redux-add-the-store" -->
 ## Add the Store to the Application
 
-#####_src/app/app.module.ts_
+##### _src/app/app.module.ts_
 ```ts
 import { StoreModule } from '@ngrx/store';
 import { reducer } from './store';
@@ -305,7 +305,7 @@ export class AppComponent {
 
 - New "Redux" tab in our browser's developer tools pane after successful installation, configuration and injecting the store
 
-<img src="/content/images/redux-devtools.png" width="50%"/>
+<img src="./images/redux-devtools.png" width="50%"/>
 
 ---
 <!-- .slide: id="redux-update-todo-list-display-1" -->
