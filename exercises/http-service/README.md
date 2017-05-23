@@ -52,4 +52,4 @@ Update `app.component.ts` to add `onGotResponse` and `onGotError` methods to set
 
 Update `app.component.ts` to have the `onGetClick()` method to call the `HttpClientService.get()` and subscribe to the result with the responses calling `onGotResponse` and `onGotError` as appropriate.
 
-Note: to test you can use either [Mocky](http://www.mocky.io/) or [JSONPlaceholder](https://jsonplaceholder.typicode.com/).  If using Mocky, remember to set a header `Access-Control-Allow-Origin` with value set to the url of the test-app (http://localhost:4200/), JSONPlaceholder does that automatically 
+Notes: to test you can use either [Mocky](http://www.mocky.io/) or [JSONPlaceholder](https://jsonplaceholder.typicode.com/).  If using Mocky, remember to set a header `Access-Control-Allow-Origin` with value set to the url of the test-app (http://localhost:4200/), JSONPlaceholder does that automatically 

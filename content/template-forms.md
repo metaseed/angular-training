@@ -186,7 +186,7 @@ export class GenericInputComponent implements OnInit {
   - `<input required>`
 - `pattern`: field value must match a regular expression
   - `<input pattern="[A-Za-z0-9]{0,5}">`
-  - Note: `pattern` only supports a subset of JavaScript regular expression syntax
+  - Notes: `pattern` only supports a subset of JavaScript regular expression syntax
 - `minlength`: must have at least a certain number of characters
   - `<input minlength="3">`
 - `maxlength`: may not have more than a certain number of characters

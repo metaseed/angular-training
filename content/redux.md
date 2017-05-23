@@ -297,7 +297,7 @@ export class AppComponent {
 }
 ```
 
-- Note: no longer storing state in `AppComponent`
+- Notes: no longer storing state in `AppComponent`
 
 ---
 <!-- .slide: id="redux-redux-dev-tools" -->

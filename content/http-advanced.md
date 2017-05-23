@@ -94,6 +94,6 @@ search() {
       .retry(3);  // Will retry failed request 3 times
 }
 ```
-- **Note:** The `onError` callback will not execute during the retry phase. The stream will only throw an error after the retry phase is complete
+- **Notes:** The `onError` callback will not execute during the retry phase. The stream will only throw an error after the retry phase is complete
 
 [View Example](http://plnkr.co/edit/zSAWwV?p=preview)

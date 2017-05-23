@@ -38,7 +38,7 @@ In the auto-generated `app.component.spec.ts` remove the existing code
 
 ## Step 4 
 
-Create a first test with `describe()`, `it()`, and `expect()` for the first step (test the return of `getMessage()`).  Note: since this is just testing a method of a class it doesn't require any Angular specific test set
+Create a first test with `describe()`, `it()`, and `expect()` for the first step (test the return of `getMessage()`).  Notes: since this is just testing a method of a class it doesn't require any Angular specific test set
 
 ## Step 5
 

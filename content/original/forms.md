@@ -314,7 +314,7 @@ export class CustomValidators {
 }
 ```
 
-Note: Validators can also be define as plain functions
+Notes: Validators can also be define as plain functions
 
 ---
 

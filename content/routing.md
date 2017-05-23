@@ -18,7 +18,7 @@
 - Routing allows users to navigate to different parts of the application
   while maintaining application state
 - Angular encourages creation of modular applications (every module define its own routes)
-- Note: routing is optional
+- Notes: routing is optional
   - Can build applications that never change URL
   - But that makes locations within the application un-bookmarkable
 

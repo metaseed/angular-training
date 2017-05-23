@@ -69,7 +69,7 @@ const routes: Routes = [
 ];
 ```
 
-Note: This does not return a 404 status code.
+Notes: This does not return a 404 status code.
 
 ---
 <!-- .slide: id="routing-advanced-route-parameters" -->

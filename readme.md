@@ -3,6 +3,7 @@
     "revealjs.theme": "white",
     "revealjs.width": "100%",
     "revealjs.height": "100%",
+    "revealjs.notesSeparator": "notes:",
     "revealjs.highlightTheme": "color-brewer",
     "revealjs.slideNumber": true,
     "revealjs.center": false,

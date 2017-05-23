@@ -158,7 +158,7 @@ export class CustomValidators {
 }
 ```
 
-- Note: validators can also be defined as plain functions
+- Notes: validators can also be defined as plain functions
 - And we really ought to put our validators in their own files...
 
 ---

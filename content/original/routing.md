@@ -13,7 +13,7 @@ Routing allows you to:
 - Create modular applications (every module define its own routes).
 - Implement authorization (certain roles have access to certain URLs).
 
-Note:
+Notes:
 
 - Routing is optional, we can build an application that never changes the URL.
 

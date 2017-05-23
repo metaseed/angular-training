@@ -132,7 +132,7 @@ export class ToDoService {
    - If there's an error, report it
 
 <!-- comment needed to separate lists -->
-- Note: JSON Server requires us to:
+- Notes: JSON Server requires us to:
   1. Store data below top-level keys (hence `items` *and* `todo`)
   1. Store lists as objects with an `id` field
 - Which is why we need `jsonToList`

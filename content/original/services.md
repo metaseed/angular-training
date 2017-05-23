@@ -216,7 +216,7 @@ search() {
       .retry(3);  // Will retry failed request 3 times
 }
 ```
-- **Note:** The `onError` callback will not execute during the retry phase. The stream will only throw an error after the retry phase is complete
+- **Notes:** The `onError` callback will not execute during the retry phase. The stream will only throw an error after the retry phase is complete
 
 [View Example](http://plnkr.co/edit/zSAWwV?p=preview)
 
@@ -244,4 +244,4 @@ It could then be consumed as a regular promise
     .catch((error) => console.error(error));
 ```
 
-**Note:** Once converted into a promise you will lose the ability to cancel the request and chain RxJs operators
+**Notes:** Once converted into a promise you will lose the ability to cancel the request and chain RxJs operators
