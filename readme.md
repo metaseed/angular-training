@@ -1,6 +1,9 @@
 * vscode config`(ctrl+,)`
 ```json
     // revealjs
+    "revealjs.margin": 0.05,
+    "revealjs.history": true,
+    "revealjs.previewLinks": true,
     "revealjs.customTheme": "style",
     "revealjs.theme": "white",
     "revealjs.width": "100%",
