@@ -1,8 +1,9 @@
 <!-- .slide: data-background="./images/title-slide.jpg" -->
 <!-- .slide: id="change-detection" -->
-## Change Dection
 
 # Angular Advanced
+
+## Change Detection
 
 ---
 

@@ -1,6 +1,3 @@
----
-customTheme: "style"
----
 <!-- .slide: data-background="./images/title-slide.jpg" -->
 <!-- .slide: id="instructor-guide" -->
 ## Building Applications with Angular
