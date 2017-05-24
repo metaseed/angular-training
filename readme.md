@@ -17,3 +17,16 @@
 npm install -g rm-modules
 rm-modules
 ```
+
+## Reference
+
+[markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+## Tricks
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
