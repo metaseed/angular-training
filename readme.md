@@ -1,4 +1,7 @@
-* vscode config`(ctrl+,)`
+# How to start
+
+* install vscode-reveal extension and edit vscode config`(ctrl+,)`
+
 ```json
     // revealjs
     "revealjs.margin": 0.05,
@@ -12,7 +15,9 @@
     "revealjs.slideNumber": true,
     "revealjs.center": false,
 ```
+
 * remove node modules recursively
+
 ```bash
 npm install -g rm-modules
 rm-modules
@@ -22,8 +27,8 @@ rm-modules
 
 [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-
 ## Tricks
+
 <dl>
   <dt>Coffee</dt>
   <dd>Black hot drink</dd>
