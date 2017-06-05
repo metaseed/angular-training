@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Calibre';
   src: url("./fonts/CalibreWeb-Regular.eot");
-  src: url("./fonts/CalibreWeb-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts//CalibreWeb-Regular.woff2") format("woff2"), url("./fonts//CalibreWeb-Regular.woff") format("woff"); }
+  src: url("./fonts/CalibreWeb-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/CalibreWeb-Regular.woff2") format("woff2"), url("./fonts/CalibreWeb-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: 'Calibre';
-  src: url("./fonts//CalibreWeb-Light.eot");
-  src: url("./fonts//CalibreWeb-Light.eot?#iefix") format("embedded-opentype"), url("./fonts//CalibreWeb-Light.woff2") format("woff2"), url("./fonts//CalibreWeb-Light.woff") format("woff"); }
+  src: url("./fonts/CalibreWeb-Light.eot");
+  src: url("./fonts/CalibreWeb-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/CalibreWeb-Light.woff2") format("woff2"), url("./fonts/CalibreWeb-Light.woff") format("woff"); }
 
 /*********************************************
  * GLOBAL STYLES
@@ -321,7 +321,7 @@ body p, body ul, body ol, body table {
   .reveal .controls {
     bottom: 50px; }
   .reveal .slides {
-    background: url(./images/angular.svg) top right no-repeat;
+    background: url(./images/logo.svg) top right no-repeat;
     background-size: 80px auto;
     margin-top: 60px;
     text-align: left; }

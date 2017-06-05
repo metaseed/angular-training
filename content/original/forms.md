@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./images/title-slide.jpg" -->
+<!-- .slide: data-background="./slide/images/background.jpg" -->
 # Forms
 
 ---
@@ -28,7 +28,7 @@ Angular has two approaches to forms:
 
 ---
 
-<!-- .slide: data-background="./images/title-slide.jpg" -->
+<!-- .slide: data-background="./slide/images/background.jpg" -->
 # Template Driven Forms
 
 ---
@@ -221,7 +221,7 @@ Template variables are instances of `NgModel` but they share some properties fro
 [View Example](https://plnkr.co/edit/dA0RTZhUgLmDX47vJ3XQ?p=preview)
 
 ---
-<!-- .slide: data-background="./images/title-slide.jpg" -->
+<!-- .slide: data-background="./slide/images/background.jpg" -->
 # Model Driven Forms
 
 ---

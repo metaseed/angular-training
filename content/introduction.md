@@ -1,5 +1,5 @@
 
-<!-- .slide: data-background="./images/title-slide.jpg" -->
+<!-- .slide: data-background="./slide/images/background.jpg" -->
 <!-- .slide: id="introduction" -->
 ## Building Applications with Angular
 
